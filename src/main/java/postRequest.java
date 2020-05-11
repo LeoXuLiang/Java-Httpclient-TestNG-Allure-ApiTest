@@ -1,3 +1,6 @@
+
+
+import com.jayway.jsonpath.JsonPath;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
@@ -18,7 +21,7 @@ public class postRequest {
         //包装请求体
         StringEntity bondContent = new StringEntity("");
         //设置请求头域
-        bondContent.setContentType("");
+        bondContent.setContentType("application/x-www-form-urlencoded");
         bondContent.setContentEncoding("gbk");
         //设置需要传递的请求体就是bondContent
         bondPost.setEntity(bondContent);
@@ -26,8 +29,14 @@ public class postRequest {
         HttpResponse bondRes = yuantong.execute(bondPost);
         HttpEntity bondEn = bondRes.getEntity();
         String bondStr = EntityUtils.toString(bondEn);
-
-
-
+        //得到返回信息json
+        System.out.println(bondStr);
+        //校验bondType是中期票据
+        String bondType = JsonPath.read(bondStr, "$.[0].bondType");
+        if (bondType.equals("中期票据")) {
+            System.out.println("测试通过"+bondType);
+        } else {
+            System.out.println("测试失败");
+        }
     }
 }

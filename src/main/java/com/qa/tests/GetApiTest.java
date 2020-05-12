@@ -2,6 +2,8 @@ package com.qa.tests;
 
 import com.qa.base.TestBase;
 import com.qa.restclient.RestClient;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -12,6 +14,7 @@ public class GetApiTest extends TestBase {
     String host;
     String url;
     RestClient restClient;
+    CloseableHttpResponse closeableHttpResponse;
 
     @BeforeClass
     public void setup() {
@@ -24,7 +27,11 @@ public class GetApiTest extends TestBase {
     @Test
     public void getAPITest() throws IOException {
         restClient = new RestClient();
-        restClient.get(url);
+        closeableHttpResponse = restClient.get(url);
+
+        //断言状态码是不是200
+        int statusCode = closeableHttpResponse.getStatusLine().getStatusCode();
+        Assert.assertEquals(statusCode,RESPONSE_STATUS_CODE_200,"response status code is not 200");
 
     }
 }

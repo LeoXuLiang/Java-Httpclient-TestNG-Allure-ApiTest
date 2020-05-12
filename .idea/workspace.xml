@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c261103-758a-4276-be97-6faab3bbd22b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/restclient/RestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/restclient/RestClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/GetApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/GetApiTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="0c261103-758a-4276-be97-6faab3bbd22b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -81,6 +73,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -259,6 +260,16 @@
               <item name="qa" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -386,7 +397,7 @@
       <workItem from="1587649455286" duration="680000" />
       <workItem from="1587650192521" duration="493000" />
       <workItem from="1589199924096" duration="664000" />
-      <workItem from="1589244386777" duration="7442000" />
+      <workItem from="1589244386777" duration="7719000" />
     </task>
     <task id="LOCAL-00001" summary="update 20200512 18:25">
       <created>1589279151234</created>
@@ -395,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589279151234</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update 20200512 18:53">
+      <created>1589280870886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589280870886</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -411,9 +429,12 @@
     <history-entry file="GetApiTest_getAPITest - 2020.05.12 at 18h 52m 11s.xml">
       <configuration name="GetApiTest.getAPITest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="GetApiTest_getAPITest - 2020.05.12 at 18h 53m 24s.xml">
+      <configuration name="GetApiTest.getAPITest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7442000" />
+    <option name="totallyTimeSpent" value="7719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +450,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2193646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2193646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -439,7 +460,7 @@
       <window_info anchor="bottom" id="Java Enterprise" weight="0.32872504" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42242703" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42242703" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,7 +488,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update 20200512 18:25" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 20200512 18:25" />
+    <MESSAGE value="update 20200512 18:53" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 20200512 18:53" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/postRequest.java">
@@ -538,6 +560,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>

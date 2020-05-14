@@ -1,8 +1,7 @@
 package com.qa.util;
-
-
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+
 
 public class TestUtil {
 
@@ -20,7 +19,8 @@ public class TestUtil {
 
     public static String getValueByJPath(JSONObject responseJson, String jpath){
 
-        Objectobj = responseJson;
+        //注意是Object obj,不是Objectobj
+        Object obj = responseJson;
 
         for(String s : jpath.split("/")) {
 

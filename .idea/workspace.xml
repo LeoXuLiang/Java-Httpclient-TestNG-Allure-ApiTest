@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c261103-758a-4276-be97-6faab3bbd22b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/config/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/restclient/RestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/restclient/RestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/GetApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/GetApiTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="45">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="105" column="43" lean-forward="true" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+            <state relative-caret-position="265">
+              <caret line="155" column="42" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +80,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/PutApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+            <state relative-caret-position="966">
+              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#726#742#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="322">
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,16 +106,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="380">
+              <caret line="126" column="18" lean-forward="true" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -136,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/config/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="207">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -170,14 +165,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/restclient/GetRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/PostApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/data/Users.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/config/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/PutApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/config/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -220,6 +215,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +239,13 @@
               <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,6 +264,36 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="qa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
@@ -282,11 +315,20 @@
               <item name="qa" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,6 +344,10 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest\src\main\config" />
+      <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="I:\AutoTest\apitest\src\test" />
       <recent name="I:\AutoTest\apitest\src\main" />
@@ -319,7 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DeleteApiTest.deleteApiTest">
+  <component name="RunManager" selected="TestNG.GetApiTest.getAPITest">
     <configuration name="PostApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qa.tests.PostApiTest" />
       <module name="apitest" />
@@ -351,7 +397,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetApiTest.getAPITest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="apitest" />
       <extension name="coverage">
         <pattern>
@@ -361,7 +407,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.tests" />
       <option name="MAIN_CLASS_NAME" value="com.qa.tests.GetApiTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="getAPITest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -406,11 +453,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GetApiTest.getAPITest" />
+        <item itemvalue="TestNG.GetApiTest.getAPITest (1)" />
         <item itemvalue="TestNG.DeleteApiTest.deleteApiTest" />
         <item itemvalue="TestNG.PutApiTest.putTest" />
         <item itemvalue="Application.PostApiTest" />
-        <item itemvalue="TestNG.GetApiTest.getAPITest" />
-        <item itemvalue="TestNG.GetApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +478,8 @@
       <workItem from="1587650192521" duration="493000" />
       <workItem from="1589199924096" duration="664000" />
       <workItem from="1589244386777" duration="12035000" />
-      <workItem from="1589424551268" duration="28165000" />
+      <workItem from="1589424551268" duration="28642000" />
+      <workItem from="1589769854398" duration="6278000" />
     </task>
     <task id="LOCAL-00001" summary="update 20200512 18:25">
       <created>1589279151234</created>
@@ -468,25 +516,17 @@
       <option name="project" value="LOCAL" />
       <updated>1589544256679</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update 20200515 23:29">
+      <created>1589556587294</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589556587294</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetApiTest_getAPITest - 2020.05.12 at 18h 52m 11s.xml">
-      <configuration name="GetApiTest.getAPITest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetApiTest_getAPITest - 2020.05.12 at 18h 53m 24s.xml">
-      <configuration name="GetApiTest.getAPITest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetApiTest_getAPITest - 2020.05.13 at 18h 45m 38s.xml">
-      <configuration name="GetApiTest.getAPITest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetApiTest_getAPITest - 2020.05.13 at 18h 46m 51s.xml">
-      <configuration name="GetApiTest.getAPITest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetApiTest_getAPITest - 2020.05.13 at 18h 48m 34s.xml">
-      <configuration name="GetApiTest.getAPITest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GetApiTest_getAPITest - 2020.05.13 at 18h 49m 28s.xml">
       <configuration name="GetApiTest.getAPITest" configurationId="TestNG" />
     </history-entry>
@@ -502,9 +542,24 @@
     <history-entry file="DeleteApiTest_deleteApiTest - 2020.05.15 at 19h 50m 33s.xml">
       <configuration name="DeleteApiTest.deleteApiTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="GetApiTest_getAPITest - 2020.05.18 at 14h 24m 50s.xml">
+      <configuration name="GetApiTest.getAPITest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetApiTest_getAPITest - 2020.05.18 at 14h 29m 32s.xml">
+      <configuration name="GetApiTest.getAPITest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetApiTest_getAPITest - 2020.05.18 at 14h 31m 04s.xml">
+      <configuration name="GetApiTest.getAPITest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetApiTest_getAPITest_(1) - 2020.05.18 at 14h 39m 13s.xml">
+      <configuration name="GetApiTest.getAPITest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetApiTest_getAPITest - 2020.05.18 at 14h 41m 44s.xml">
+      <configuration name="GetApiTest.getAPITest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40200000" />
+    <option name="totallyTimeSpent" value="46955000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,7 +574,7 @@
     <frame x="1912" y="140" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22239032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -529,7 +584,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38709676" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7127496" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -537,7 +592,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32872504" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32872504" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32872504" />
@@ -562,7 +617,8 @@
     <MESSAGE value="update 20200512 18:59" />
     <MESSAGE value="update 20200514 17:59" />
     <MESSAGE value="update 20200515 20:03" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 20200515 20:03" />
+    <MESSAGE value="update 20200515 23:29" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 20200515 23:29" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient2.java" />
@@ -590,16 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -610,10 +656,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/config/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/PutApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="966">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -621,16 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,48 +690,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/config/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/PutApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#726#742#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="23">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="105" column="43" lean-forward="true" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+        <state relative-caret-position="265">
+          <caret line="155" column="42" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="126" column="18" lean-forward="true" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
         </state>
       </provider>
     </entry>

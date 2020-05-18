@@ -37,7 +37,11 @@
       <artifactId>slf4j-log4j12</artifactId>
       <version>1.7.2</version>
     </dependency>
-
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
     <dependency>
@@ -73,9 +77,8 @@
       <version>7.0.0</version>
       <scope>compile</scope>
     </dependency>
-
-
   </dependencies>
+
 
   <build>
     <finalName>apitest</finalName>
@@ -112,5 +115,15 @@
         </plugin>
       </plugins>
     </pluginManagement>
+
+    <!--设置配置文件路径-->
+      <resources>
+        <resource>
+          <directory>src/main/config</directory>
+          <includes>
+            <include>**/*.properties</include>
+          </includes>
+        </resource>
+      </resources>
   </build>
 </project>

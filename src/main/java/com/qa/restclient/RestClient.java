@@ -1,11 +1,14 @@
 package com.qa.restclient;
 
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.*;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -113,6 +116,48 @@ public class RestClient {
         CloseableHttpResponse httpResponse = httpclient.execute(httpput);
         Log.info("开始发送Put请求");
         return httpResponse;
+    }
 
+    /**
+     * 封装 delete请求方法
+     * @param url
+     * @return 返回一个response对象，方便进行得到状态码和json解析
+     * @throws IOException
+     */
+    public CloseableHttpResponse delete(String url) throws IOException {
+
+        CloseableHttpClient httpclient = HttpClients.createDefault();
+        HttpDelete httpdelete = new HttpDelete(url);
+
+        //发送delete请求
+        CloseableHttpResponse httpResponse = httpclient.execute(httpdelete);
+        return httpResponse;
+    }
+
+    /**
+     * 获取响应状态码，常用来和TestBase中定义的状态码常量去测试断言使用
+     * @param response
+     * @return
+     */
+    public int getStatusCode(CloseableHttpResponse response) {
+
+        int statusCode = response.getStatusLine().getStatusCode();
+        Log.info("解析，得到响应状态码" + statusCode);
+        return statusCode;
+    }
+
+
+    /**
+     *
+     * @param response 任何请求返回的响应对象
+     * @return
+     * @throws IOException
+     */
+    public JSONObject getResponseJson(CloseableHttpResponse response) throws IOException {
+        Log.info("得到响应对象的String格式");
+        String responseString = EntityUtils.toString(response.getEntity(), "UTF-8");
+        JSONObject responseJson = JSON.parseObject(responseString);
+        Log.info("返回响应内容的JSON格式");
+        return responseJson;
     }
 }

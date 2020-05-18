@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class TestBase {
+    //这个类作为所有接口请求的父类，加载读取properties文件
     public Properties prop;
 
     public int RESPONSE_STATUS_CODE_200 = 200;
@@ -14,6 +15,7 @@ public class TestBase {
     public int RESPONSE_STATUS_CODE_404 = 404;
     public int RESPONSE_STATUS_CODE_500 = 500;
 
+    //构造函数
     public TestBase(){
         try{
             prop = new Properties();

@@ -43,7 +43,7 @@ public class RestClient {
     }
 
     /**
-     * 带请求头的get方法封装
+     * 带header的get方法封装
      *
      * @param url
      * @return 返回响应对象

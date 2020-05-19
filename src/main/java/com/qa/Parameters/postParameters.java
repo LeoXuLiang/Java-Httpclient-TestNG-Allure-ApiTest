@@ -4,9 +4,6 @@ public class postParameters {
     private String userName;
     private String password;
 
-    public postParameters(){
-
-    }
     //login
     public postParameters(String userName , String password){
         this.userName = userName;

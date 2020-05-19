@@ -31,7 +31,7 @@ public class PostApiTest extends TestBase {
     }
 
     @Test
-    public void postApiTest() throws ClientProtocolException, IOException {
+    public void postApiTest() throws IOException {
         restClient = new RestClient();
 
         HashMap<String, String> headermap = new HashMap<String, String>();

@@ -97,11 +97,11 @@ public class TestUtil {
         return dttData;
     }
 
-
     //获取状态码
     public static int getStatusCode(CloseableHttpResponse closeableHttpResponse) {
         int StatusCode = closeableHttpResponse.getStatusLine().getStatusCode();
         return StatusCode;
-
     }
+
+
 }

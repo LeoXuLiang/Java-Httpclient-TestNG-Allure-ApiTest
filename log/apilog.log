@@ -1,7 +1,0 @@
-2020-05-19 18:14:09 249 INFO  RestClient:92 - 开始发送post请求
-2020-05-19 18:14:09 296 INFO  RestClient:92 - 开始发送post请求
-2020-05-19 18:14:09 318 INFO  RestClient:92 - 开始发送post请求
-2020-05-19 18:14:09 343 INFO  RestClient:92 - 开始发送post请求
-2020-05-19 18:14:09 357 INFO  RestClient:92 - 开始发送post请求
-2020-05-19 18:14:09 428 INFO  RestClient:39 - 开始发送get请求...
-2020-05-19 18:14:09 474 INFO  RestClient:41 - 发送请求成功！开始得到响应对象。

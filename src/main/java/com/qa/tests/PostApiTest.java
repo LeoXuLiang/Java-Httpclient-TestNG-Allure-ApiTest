@@ -26,7 +26,7 @@ public class PostApiTest extends TestBase {
     @BeforeClass
     public void setUp() {
         testBase = new TestBase();
-        host = prop.getProperty("HOST");
+        host = prop.getProperty("Host");
         url = host + "/api/users";
     }
 

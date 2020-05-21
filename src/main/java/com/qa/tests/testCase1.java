@@ -18,6 +18,7 @@ import java.util.HashMap;
 import static com.qa.util.TestUtil.dtt;
 
 public class testCase1 extends TestBase {
+
     TestBase testBase;
     RestClient restClient;
     CloseableHttpResponse closeableHttpResponse;

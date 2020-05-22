@@ -70,6 +70,7 @@ public class testCase1 extends TestBase {
         Assert.assertEquals(statusCode,200);
         Reporter.log("状态码："+statusCode,true);
         Reporter.log("接口地址： "+loginUrl);
+        Reporter.log("Json对象： "+userJsonString);
     }
 
     @Test(dataProvider = "get")

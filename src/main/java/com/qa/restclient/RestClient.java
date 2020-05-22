@@ -8,6 +8,7 @@ import org.apache.http.client.methods.*;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.client.LaxRedirectStrategy;
 import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 import java.io.IOException;
@@ -74,8 +75,8 @@ public class RestClient {
      * @throws IOException
      */
     public CloseableHttpResponse post(String url, String entityString, HashMap<String, String> headerMap) throws IOException {
-        //创建一个可关闭的Httpclient对象
-        CloseableHttpClient httpclient = HttpClients.createDefault();
+        //创建一个可关闭的Httpclient对象,设置自动跟踪重定向
+        CloseableHttpClient httpclient = HttpClients.custom().setRedirectStrategy(new LaxRedirectStrategy()).build();
         //创建一个Httppost的请求对象
         HttpPost httppost = new HttpPost(url);
         //设置payload

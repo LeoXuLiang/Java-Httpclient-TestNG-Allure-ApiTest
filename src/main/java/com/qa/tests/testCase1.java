@@ -82,7 +82,6 @@ public class testCase1 extends TestBase {
         Reporter.log("接口地址： "+url);
     }
 
-
     @BeforeClass
     public void endTest(){
         System.out.print("测试结束");

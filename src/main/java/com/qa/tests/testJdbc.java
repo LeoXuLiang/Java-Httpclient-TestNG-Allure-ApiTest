@@ -1,43 +1,41 @@
 package com.qa.tests;
 
-import com.qa.util.MysqlOperation;
-import java.sql.*;
 
+import com.qa.util.MysqlUtil;
+import org.testng.annotations.Test;
+
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.Properties;
 
 public class testJdbc {
+    public static Connection conn=null;
+    public static PreparedStatement statement=null;
+    public static ResultSet resultSet=null;
+    public static String driver=null;
+    public static String url=null;
+    public static String user=null;
+    public static  String pwd=null;
+    @Test
+    public void testSelect2() throws IOException, ClassNotFoundException {
 
-//    @DataProvider(name = "username")
-//    public static String getDataList(String sql) throws SQLException{
-public static void main(String[] args) throws SQLException {
-
-        Connection conn = MysqlOperation.getConnection();
-        Statement stmt  =  null;
-        ResultSet rs = null;
-        String sqlResult = null;
-        stmt = conn.createStatement() ;    // 实例化Statement对象
-        rs = stmt.executeQuery("SELECT code FROM `mobile_validate` WHERE mobile = '18900000001';");    // 执行数据库更新操作
-        //展开结果集数据库，获得数据行数 count
-        int count = 0;
-            while(rs.next()){
-                count = count + 1;
-            }
-        System.out.println("count = " + count);
-
-        //展开结果集数据库，获得表中列数 line
-        int line = rs.getMetaData().getColumnCount();
-        System.out.println("line = " + line);
-        while(rs.next()) {//遍历行，next()方法返回值为Boolean，当存在数据行返回true,反之false
-            for(int i = 1; i <= line; i++) { //遍历列
-                sqlResult = rs.getString(i);
-            }
-            System.out.println();
-        }
-        MysqlOperation.close(rs);// 关闭操作
-        MysqlOperation.close(stmt);// 关闭操作
-        MysqlOperation.close(conn);// 关闭操作
-        System.out.println("sqlResult : " +sqlResult);
-//        return sqlResult;
+        InputStream is = new BufferedInputStream(new FileInputStream(System.getProperty("user.dir") + "/src/main/java/com/qa/config/config.properties"));
+        // 3.创建一个properties对象
+        Properties properties = new Properties();
+        // 4.加载输入流
+        properties.load(is);
+        // 5.获取相关参数的值
+        driver=properties.getProperty("driver");
+        url=properties.getProperty("url");
+        user=properties.getProperty("username");
+        pwd=properties.getProperty("password");
+        //加载驱动
+        Class.forName(driver);
     }
-
-
 }
+

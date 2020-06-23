@@ -1,37 +1,35 @@
 package com.qa.tests;
 
-import com.qa.util.JDBCUtil;
-import java.sql.*;
 
-public class testJdbc2 {
+import com.qa.util.Xt_Operate;
 
-    public static void main(String[] args) throws SQLException {
-        Connection conn = JDBCUtil.getConnection();
-        Statement stmt  =  null;
-        ResultSet rs = null;
-        String sqlResult = null;
-        stmt = conn.createStatement() ;    // 实例化Statement对象
-        rs = stmt.executeQuery("SELECT code FROM `mobile_validate` WHERE mobile = '18900000001';");    // 执行数据库更新操作
-        //展开结果集数据库，获得数据行数 count
-        int count = 0;
-        while(rs.next()){
-            count = count + 1;
-        }
-        System.out.println("count = " + count);
+import java.util.List;
+import java.util.Map;
 
-        //展开结果集数据库，获得表中列数 line
-        int line = rs.getMetaData().getColumnCount();
-        System.out.println("line = " + line);
+public class testJdbc2 extends Xt_Operate {
 
-        while(rs.next()) {//遍历行，next()方法返回值为Boolean，当存在数据行返回true,反之false
-            for(int i = 0; i <= line; i++) { //遍历列
-                sqlResult = rs.getString(i);
-            }
-            System.out.println();
-        }
-        JDBCUtil.release(conn,stmt,rs);// 关闭操作
+    public static void main(String[] args) {
 
-        System.out.println("sqlResult : " +sqlResult);
-//        System.out.println(getDataList("SELECT code FROM `mobile_validate` WHERE mobile = '18900000001';"));
+       /* MysqlUtil mysqlUtil = new MysqlUtil();
+        System.out.println(mysqlUtil.mySelect("SELECT `name` FROM `user` WHERE login_name LIKE '1990000000%';"));
+        mysqlUtil.closeAll();
+    }*/
+        LoadJdbc();
+        //查询数据并返回查询结果
+        afferentSQL("SELECT NAME FROM `user` WHERE login_name = '19900000002';");
+        //SelectXT（）使用list接收返回结果
+        List<Object> usersa = SelectXT();
+
+        //数据读取示例
+        //获取第一条数据
+        Map<String, Object> rowData = (Map<String, Object>)usersa.get(0);
+        //获取第一条数据的name字段
+        rowData.get("name");
+
+        System.out.println("第1条数据的name字段："+rowData.get("name"));
+
+
+
     }
 }
+

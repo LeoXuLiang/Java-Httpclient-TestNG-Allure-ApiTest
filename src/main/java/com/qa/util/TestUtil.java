@@ -77,9 +77,11 @@ public class TestUtil {
         XSSFWorkbook wb = new XSSFWorkbook(fis);
         XSSFSheet sh = wb.getSheetAt(sheetId);
         int numberrow = sh.getPhysicalNumberOfRows();
-        int numbercell = sh.getRow(0).getLastCellNum();
+        int numbercell = sh.getRow(1).getLastCellNum();
 
         Object[][] dttData = new Object[numberrow][numbercell];
+
+        // 忽略首行
         for (int i = 0; i < numberrow; i++) {
             if (null == sh.getRow(i) || "".equals(sh.getRow(i))) {
                 continue;
@@ -97,7 +99,7 @@ public class TestUtil {
         return dttData;
     }
 
-    //获取状态码
+    //4 获取状态码
     public static int getStatusCode(CloseableHttpResponse closeableHttpResponse) {
         int StatusCode = closeableHttpResponse.getStatusLine().getStatusCode();
         return StatusCode;

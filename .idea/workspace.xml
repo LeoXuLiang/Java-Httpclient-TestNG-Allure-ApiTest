@@ -2,16 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c261103-758a-4276-be97-6faab3bbd22b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/tests/encodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/util/JdbcPz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/util/MysqlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/util/Xt_Operate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/apiAutoTest_debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/apiAutoTest_debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/Parameters/postParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/data/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/tests/EFPStagingCN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/tests/PostApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/tests/PutApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/tests/TestPropertisread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/tests/testCase1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/tests/testCase1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/util/JDBCUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/util/Jdbc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/util/JdbcPz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/util/JdbcPz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/util/MysqlOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/util/MysqlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/util/Mysqlread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/util/Xt_Operate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/util/Xt_Operate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/Parameters/postParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/data/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/EFPStagingCN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/PostApiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/PutApiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/TestPropertisread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/testCase1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/testCase1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/testJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/testJdbc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/testJdbc2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/testJdbc2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/JDBCUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/Jdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/JdbcPz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/JdbcPz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/MysqlOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/MysqlUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/Mysqlread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/Xt_Operate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/Xt_Operate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,68 +77,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/config/config.properties">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="6" selection-start-line="13" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="212">
+              <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/testCase1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/annotations/Test.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/JDBCUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Jdbc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-716">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/MysqlUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="121" selection-start-line="121" selection-end-line="138" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/JdbcPz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+            <state relative-caret-position="207">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,22 +125,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Xt_Operate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1794">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="345">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2159#2167#0" expanded="true" />
-                <element signature="e#2995#3011#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -159,6 +154,8 @@
       <find>host</find>
       <find>getConnection</find>
       <find>URIUtil</find>
+      <find>dtt</find>
+      <find>jdb</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -175,13 +172,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/PutApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/report/ExtentTestNGReporterListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Parameters/postParameters.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/EFPStagingCN.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/config/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/PostApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/process_validateCode_normal_001.java" />
@@ -189,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/MysqlOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/TestPropertisread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/testCase1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/Jdbc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/JDBCUnit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/config/config.properties" />
@@ -199,9 +192,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/MysqlUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/JdbcXT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc2.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/JdbcPz.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/Xt_Operate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/testCase1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java" />
       </list>
     </option>
   </component>
@@ -235,10 +232,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="551" />
-    <option name="y" value="145" />
-    <option name="width" value="1874" />
-    <option name="height" value="1092" />
+    <option name="x" value="1597" />
+    <option name="y" value="235" />
+    <option name="width" value="1696" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectId" id="1atoxpmA4VdaC19zVxhTaWMqqHc" />
   <component name="ProjectLevelVcsManager">
@@ -249,8 +246,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,7 +298,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="restclient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
@@ -338,7 +355,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/qa/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../apiTest_jwh_20200515" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -348,20 +365,20 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest\src\main\config" />
+      <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qa.tests" />
+      <recent name="com.qa.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest\src\main\java\com\qa\tests" />
       <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest\src\main\resource" />
       <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest" />
       <recent name="I:\AutoTest\apitest\src\test" />
       <recent name="I:\AutoTest\apitest\src\main" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.qa.tests" />
-      <recent name="com.qa.util" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest\src\main\config" />
-      <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -376,20 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.testJdbc2">
-    <configuration name="encodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qa.tests.encodeTest" />
-      <module name="apitest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml">
     <configuration name="testJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qa.tests.testJdbc" />
       <module name="apitest" />
@@ -412,6 +416,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="apitest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -471,11 +485,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" />
         <item itemvalue="Application.testJdbc2" />
         <item itemvalue="TestNG.testJdbc2.testSelect" />
         <item itemvalue="TestNG.testJdbc2" />
         <item itemvalue="Application.testJdbc" />
-        <item itemvalue="Application.encodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +518,10 @@
       <workItem from="1591163650411" duration="3945000" />
       <workItem from="1591775902026" duration="25966000" />
       <workItem from="1592471328136" duration="2729000" />
-      <workItem from="1592897825880" duration="8975000" />
+      <workItem from="1592897825880" duration="14328000" />
+      <workItem from="1593334247577" duration="7602000" />
+      <workItem from="1593565352599" duration="2570000" />
+      <workItem from="1593583495067" duration="7035000" />
     </task>
     <task id="LOCAL-00001" summary="update 20200512 18:25">
       <created>1589279151234</created>
@@ -604,43 +621,50 @@
       <option name="project" value="LOCAL" />
       <updated>1591878932205</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update 20200623 19:00">
+      <created>1592910644849</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592910644849</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testJdbc2 - 2020.06.23 at 16h 40m 08s.xml">
-      <configuration name="testJdbc2" configurationId="TestNG" />
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.01 at 15h 03m 15s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testJdbc2 - 2020.06.23 at 16h 44m 54s.xml">
-      <configuration name="testJdbc2" configurationId="TestNG" />
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.01 at 15h 05m 50s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testJdbc2 - 2020.06.23 at 16h 45m 33s.xml">
-      <configuration name="testJdbc2" configurationId="TestNG" />
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.01 at 15h 09m 24s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testJdbc2 - 2020.06.23 at 16h 48m 24s.xml">
-      <configuration name="testJdbc2" configurationId="TestNG" />
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.01 at 15h 15m 38s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testJdbc2 - 2020.06.23 at 16h 52m 23s.xml">
-      <configuration name="testJdbc2" configurationId="TestNG" />
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.01 at 15h 16m 45s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testJdbc2 - 2020.06.23 at 16h 53m 26s.xml">
-      <configuration name="testJdbc2" configurationId="TestNG" />
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.01 at 15h 24m 20s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testJdbc2_testSelect - 2020.06.23 at 16h 58m 33s.xml">
-      <configuration name="testJdbc2.testSelect" configurationId="TestNG" />
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.01 at 15h 37m 04s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testJdbc2 - 2020.06.23 at 17h 03m 36s.xml">
-      <configuration name="testJdbc2" configurationId="TestNG" />
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.01 at 19h 11m 27s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testJdbc2 - 2020.06.23 at 17h 05m 09s.xml">
-      <configuration name="testJdbc2" configurationId="TestNG" />
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.01 at 19h 12m 46s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testJdbc2_testSelect - 2020.06.23 at 17h 07m 13s.xml">
-      <configuration name="testJdbc2.testSelect" configurationId="TestNG" />
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.01 at 19h 13m 16s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161513000" />
+    <option name="totallyTimeSpent" value="184073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,7 +679,7 @@
     <frame x="1912" y="140" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49615976" visible="true" weight="0.24583964" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49615976" visible="true" weight="0.2549168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -665,7 +689,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3809524" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.718894" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -710,7 +734,8 @@
     <MESSAGE value="update 20200521 19:00" />
     <MESSAGE value="update 20200522 21:50" />
     <MESSAGE value="update 20200611 20:00" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 20200611 20:00" />
+    <MESSAGE value="update 20200623 19:00" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 20200623 19:00" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient2.java" />
@@ -738,9 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/apilog.log" />
     <entry file="file://$PROJECT_DIR$/logs/apiAutoTest_error.log">
       <provider selected="true" editor-type-id="text-editor" />
@@ -759,27 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/EFPStagingCN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1189">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/data/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -800,20 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Parameters/postParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/report/ExtentTestNGReporterListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -829,60 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12">
           <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/postRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="21" column="129" selection-start-line="21" selection-start-column="129" selection-end-line="21" selection-end-column="129" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/PostApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/TestPropertisread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/TestInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="147" column="41" selection-start-line="147" selection-start-column="41" selection-end-line="147" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -917,30 +854,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="808" column="5" lean-forward="true" selection-start-line="808" selection-start-column="5" selection-end-line="809" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/testCase1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -978,13 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6923">
-          <caret line="342" selection-start-line="342" selection-end-line="342" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4508">
@@ -992,84 +902,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/MysqlOperation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/config.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/MysqlOperation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Mysqlread.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/TestPropertisread.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/TestInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Mysqlread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/config/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="6" selection-start-line="13" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Jdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-716">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/JDBCUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/MysqlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="121" selection-start-line="121" selection-end-line="138" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/JdbcPz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        <state relative-caret-position="1794">
+          <caret line="158" column="32" lean-forward="true" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1083,22 +923,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Xt_Operate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Jdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1794">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="230">
+          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2159#2167#0" expanded="true" />
-            <element signature="e#2995#3011#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Parameters/postParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/postRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/data/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/EFPStagingCN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/PostApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/JdbcPz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-446">
+          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/MysqlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="110" column="62" lean-forward="true" selection-start-line="110" selection-start-column="62" selection-end-line="110" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/JDBCUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="977" column="59" selection-start-line="977" selection-start-column="59" selection-end-line="977" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/annotations/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="207">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Xt_Operate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/testCase1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

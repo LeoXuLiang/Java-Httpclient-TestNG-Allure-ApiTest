@@ -1,7 +1,6 @@
 package com.qa.tests;
 
 
-import com.qa.util.MysqlUtil;
 import org.testng.annotations.Test;
 
 import java.io.BufferedInputStream;

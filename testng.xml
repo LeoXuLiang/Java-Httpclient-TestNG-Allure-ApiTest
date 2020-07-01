@@ -5,8 +5,8 @@
         <classes>
             <class name="com.qa.tests.testCase1">
                 <methods>
-                    <include name="login"></include>
-                    <include name="getApi"></include>
+                    <include name="postApi"></include>
+<!--                    <include name="getApi"></include>-->
                 </methods>
             </class>
         </classes>

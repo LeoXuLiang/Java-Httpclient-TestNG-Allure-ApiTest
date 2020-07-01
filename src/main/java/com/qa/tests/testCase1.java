@@ -2,7 +2,6 @@ package com.qa.tests;
 
 import com.alibaba.fastjson.JSON;
 import com.qa.base.TestBase;
-import com.qa.Parameters.postParameters;
 import com.qa.restclient.RestClient;
 import com.qa.util.TestUtil;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -32,18 +31,16 @@ public class testCase1 extends TestBase {
     public void setUp(){
         testBase = new TestBase();
         restClient = new RestClient();
-        postHeader.put("Content-Type","application/json");
+        postHeader.put("Content-Type","application/x-www-form-urlencoded");
         //载入配置文件，接口endpoint
         host = prop.getProperty("Host");
         //载入配置文件，post接口参数
         testCaseExcel=prop.getProperty("testCase1data");
-
     }
 
     @DataProvider(name = "postData")
     public Object[][] post() throws IOException {
         return dtt(testCaseExcel,0);
-
     }
 
     @DataProvider(name = "get")
@@ -58,19 +55,23 @@ public class testCase1 extends TestBase {
         return dtt(testCaseExcel,2);
     }
     @Test(dataProvider = "postData")
-    public void login(String loginUrl,String username, String passWord) throws Exception {
-        //使用构造函数将传入的用户名密码初始化成登录请求参数
-        postParameters loginParameters = new postParameters(username,passWord);
-        //将登录请求对象序列化成json对象
-        String userJsonString = JSON.toJSONString(loginParameters);
+    public void postApi(String project,String caseID,String apiSeq,String apiName,String testType,String priority,String url,String headInfo,String precondition,String methods,String dataParameters,String specialSetup,String contentType,String sign,String expectValue,String preResult,String sql,String jsonPath1,String jsonPath2,String jsonPath3,String jsonPath4,String para1,String para2,String para3,String para4,String port)
+ throws Exception {
+        //将传入的参数对象序列化成json对象
+        String parameter = JSON.toJSONString(dataParameters);
         //发送登录请求
-        closeableHttpResponse = restClient.post(host+loginUrl,userJsonString,postHeader);
+        closeableHttpResponse = restClient.post(host+url,parameter,postHeader);
         //从返回结果中获取状态码
         int statusCode = TestUtil.getStatusCode(closeableHttpResponse);
         Assert.assertEquals(statusCode,200);
-        Reporter.log("状态码："+statusCode,true);
-        Reporter.log("接口地址： "+loginUrl);
-        Reporter.log("Json对象： "+userJsonString);
+        Reporter.log("用例编号： "+  caseID);
+        Reporter.log("用例标题： "+  apiName);
+        Reporter.log("URL： "+  url);
+        Reporter.log("请求方式： "+  methods);
+        Reporter.log("请求参数： "+ parameter);
+        Reporter.log("状态码："+ statusCode,true);
+        Reporter.log("响应结果： "+ closeableHttpResponse.toString());
+        System.out.println(closeableHttpResponse.toString());
     }
 
     @Test(dataProvider = "get")

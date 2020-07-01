@@ -19,7 +19,7 @@ public class Xt_Operate {
     //初始化
     public static void LoadJdbc(){
         //调用配置JdbcPz 中的连接方法完成初始化
-        conn=JdbcPz.getConnection();
+        conn= JdbcPz.getConnection();
     }
 
     //afferentSQL（） 接收出传入的SQL语句

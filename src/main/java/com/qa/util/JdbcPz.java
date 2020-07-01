@@ -22,7 +22,7 @@ public class JdbcPz {
      */
     static {
         try {
-            InputStream is = new BufferedInputStream(new FileInputStream(System.getProperty("user.dir") + "/src/main/java/com/qa/config/config.properties"));
+            InputStream is = new BufferedInputStream(new FileInputStream(System.getProperty("user.dir") + "/src/main/config/config.properties"));
             // 3.创建一个properties对象
             Properties properties = new Properties();
             // 4.加载输入流

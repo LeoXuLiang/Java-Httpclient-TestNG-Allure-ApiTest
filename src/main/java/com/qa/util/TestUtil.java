@@ -68,21 +68,23 @@ public class TestUtil {
     }
 
 
+
+
     //3 遍历excel ,sheet参数
     public static Object[][] dtt(String filePath, int sheetId) throws IOException {
 
         File file = new File(filePath);
         FileInputStream fis = new FileInputStream(file);
-
         XSSFWorkbook wb = new XSSFWorkbook(fis);
         XSSFSheet sh = wb.getSheetAt(sheetId);
         int numberrow = sh.getPhysicalNumberOfRows();
-        int numbercell = sh.getRow(1).getLastCellNum();
+        int numbercell = sh.getRow(0).getLastCellNum();
+        System.out.println("总行数："+ numberrow);
+        System.out.println("总列数："+ numbercell);
+        Object[][] dttData = new Object[numberrow-1][numbercell];
 
-        Object[][] dttData = new Object[numberrow][numbercell];
-
-        // 忽略首行
-        for (int i = 0; i < numberrow; i++) {
+        // 忽略首行 i=1
+        for (int i = 1; i < numberrow; i++) {
             if (null == sh.getRow(i) || "".equals(sh.getRow(i))) {
                 continue;
             }
@@ -92,7 +94,7 @@ public class TestUtil {
                 }
                 XSSFCell cell = sh.getRow(i).getCell(j);
                 cell.setCellType(Cell.CELL_TYPE_STRING);
-                dttData[i][j] = cell.getStringCellValue();
+                dttData[i-1][j] = cell.getStringCellValue();
             }
         }
 

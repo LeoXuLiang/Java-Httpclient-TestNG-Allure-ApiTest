@@ -3,9 +3,9 @@
 <suite name="test" verbose="1" preserve-order="true" parallel="false">
     <test name="testCase1">
         <classes>
-            <class name="com.qa.tests.testCase1">
+            <class name="com.qa.tests.testCase2">
                 <methods>
-                    <include name="postApi"></include>
+                    <include name="postApi2"></include>
 <!--                    <include name="getApi"></include>-->
                 </methods>
             </class>

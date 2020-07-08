@@ -4,18 +4,19 @@ package com.qa.restclient;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.*;
+import org.apache.http.entity.BasicHttpEntity;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.impl.client.LaxRedirectStrategy;
+import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-
+import java.util.*;
 
 
 public class RestClient {
@@ -87,6 +88,44 @@ public class RestClient {
         for (Map.Entry<String, String> entry : headerMap.entrySet()) {
             httppost.addHeader(entry.getKey(), entry.getValue());
 
+        }
+        //发送post请求
+        CloseableHttpResponse httpResponse = httpclient.execute(httppost);
+        Log.info("开始发送post请求");
+        return httpResponse;
+    }
+
+
+
+    /**
+     * 封装post方法【】
+     *
+     * @param url
+     * @param entityString，其实就是设置请求json参数
+     * @param headerMap 带请求头
+     * @return 返回响应对象
+     * @throws ClientProtocolException
+     * @throws IOException
+     */
+    public CloseableHttpResponse postKeyValue(String url, Map<String, String> entityString, HashMap<String, String> headerMap) throws IOException {
+        //创建一个可关闭的Httpclient对象,设置自动跟踪重定向
+        CloseableHttpClient httpclient = HttpClientBuilder.create().setRedirectStrategy(new LaxRedirectStrategy()).build();
+//        CloseableHttpClient httpclient = HttpClientBuilder.create().build();
+        //创建一个Httppost的请求对象
+        HttpPost httppost = new HttpPost(url);
+        List<BasicNameValuePair> parameters = new ArrayList<BasicNameValuePair>();
+        //去除map中所有的参数名
+        Set<String> keys = entityString.keySet();
+        //通过循环将参数保存到list集合
+        for (String name : keys) {
+            String value = entityString.get(name);
+            parameters.add(new BasicNameValuePair(name, value));
+        }
+        httppost.setEntity(new UrlEncodedFormEntity(parameters,"utf-8"));
+
+        //加载请求头到httppost对象
+        for (Map.Entry<String, String> entry : headerMap.entrySet()) {
+            httppost.addHeader(entry.getKey(), entry.getValue());
         }
         //发送post请求
         CloseableHttpResponse httpResponse = httpclient.execute(httppost);

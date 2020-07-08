@@ -1,7 +1,0 @@
-2020-05-25 10:59:07  [ com.qa.restclient.RestClient.post(92) ] - [ INFO ]  开始发送post请求
-2020-05-25 10:59:07  [ com.qa.restclient.RestClient.post(92) ] - [ INFO ]  开始发送post请求
-2020-05-25 10:59:07  [ com.qa.restclient.RestClient.post(92) ] - [ INFO ]  开始发送post请求
-2020-05-25 10:59:07  [ com.qa.restclient.RestClient.post(92) ] - [ INFO ]  开始发送post请求
-2020-05-25 10:59:07  [ com.qa.restclient.RestClient.post(92) ] - [ INFO ]  开始发送post请求
-2020-05-25 10:59:07  [ com.qa.restclient.RestClient.get(39) ] - [ INFO ]  开始发送get请求...
-2020-05-25 10:59:07  [ com.qa.restclient.RestClient.get(41) ] - [ INFO ]  发送请求成功！开始得到响应对象。

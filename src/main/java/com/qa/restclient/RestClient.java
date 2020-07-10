@@ -3,6 +3,8 @@ package com.qa.restclient;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import org.apache.http.Header;
+import org.apache.http.HttpRequest;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.*;
@@ -22,10 +24,12 @@ import java.util.*;
 public class RestClient {
 
     final static Logger Log = Logger.getLogger(RestClient.class);
+    public static Map<String, String> cookies = new HashMap<String ,String>();
 
 
     /**
      * 不带请求头的get方法封装
+     *
      * @param url
      * @return 返回响应对象
      * @throws ClientProtocolException
@@ -39,7 +43,9 @@ public class RestClient {
         HttpGet httpget = new HttpGet(url);
         //执行请求，相当于postman上点击发送按钮，然后赋值给HttpResponse对象接收
         Log.info("开始发送get请求...");
+        addCookieInRequestHeaderBeforeRequest(httpget);
         CloseableHttpResponse httpResponse = httpClient.execute(httpget);
+        getAndStoreCookieFromResponseHeader(httpResponse);
         Log.info("发送请求成功！开始得到响应对象。");
         return httpResponse;
     }
@@ -62,7 +68,9 @@ public class RestClient {
             httpget.addHeader(entry.getKey(), entry.getValue());
         }
         //执行请求
+        addCookieInRequestHeaderBeforeRequest(httpget);
         CloseableHttpResponse httpResponse = httpClient.execute(httpget);
+        getAndStoreCookieFromResponseHeader(httpResponse);
         return httpResponse;
     }
 
@@ -71,7 +79,7 @@ public class RestClient {
      *
      * @param url
      * @param entityString，其实就是设置请求json参数
-     * @param headerMap 带请求头
+     * @param headerMap                   带请求头
      * @return 返回响应对象
      * @throws ClientProtocolException
      * @throws IOException
@@ -90,11 +98,12 @@ public class RestClient {
 
         }
         //发送post请求
+        addCookieInRequestHeaderBeforeRequest(httppost);
         CloseableHttpResponse httpResponse = httpclient.execute(httppost);
+        getAndStoreCookieFromResponseHeader(httpResponse);
         Log.info("开始发送post请求");
         return httpResponse;
     }
-
 
 
     /**
@@ -102,7 +111,7 @@ public class RestClient {
      *
      * @param url
      * @param entityString，其实就是设置请求json参数
-     * @param headerMap 带请求头
+     * @param headerMap                   带请求头
      * @return 返回响应对象
      * @throws ClientProtocolException
      * @throws IOException
@@ -121,16 +130,52 @@ public class RestClient {
             String value = entityString.get(name);
             parameters.add(new BasicNameValuePair(name, value));
         }
-        httppost.setEntity(new UrlEncodedFormEntity(parameters,"utf-8"));
+        httppost.setEntity(new UrlEncodedFormEntity(parameters, "utf-8"));
 
         //加载请求头到httppost对象
         for (Map.Entry<String, String> entry : headerMap.entrySet()) {
             httppost.addHeader(entry.getKey(), entry.getValue());
         }
         //发送post请求
+        addCookieInRequestHeaderBeforeRequest(httppost);
         CloseableHttpResponse httpResponse = httpclient.execute(httppost);
+        getAndStoreCookieFromResponseHeader(httpResponse);
+
         Log.info("开始发送post请求");
         return httpResponse;
+    }
+
+    private void addCookieInRequestHeaderBeforeRequest(HttpRequest request) {
+        String jsessionIdCookie = cookies.get("JSESSIONID");
+        if (jsessionIdCookie != null) {
+            request.addHeader("Cookie",jsessionIdCookie);
+
+        }
+    }
+
+    private static void getAndStoreCookieFromResponseHeader(CloseableHttpResponse httpResponse) {
+        //从响应头里取出名字为"Set-Cookie"的响应头
+        Header setCookieHeader = httpResponse.getFirstHeader("Set-Cookie");
+        //如果不为空
+        if (setCookieHeader!=null){
+            //取出此响应头的值
+            String cookiePairsString = setCookieHeader.getValue();
+            if (cookiePairsString != null && cookiePairsString.trim().length() > 0) {
+                //以“;”来切分
+                String [] cookiePairs = cookiePairsString.split(";");
+                if (cookiePairs != null) {
+                    for (String cookiePair : cookiePairs){
+                        //如果包含JSESSIONID，则意味着响应头里有会话ID这个数据
+                        if (cookiePair.contains("JSESSIONID")){
+                            //保存到map
+                            cookies.put("JSESSIONID", cookiePair);
+
+                        }
+                    }
+                }
+            }
+        }
+
     }
 
     /**
@@ -160,6 +205,7 @@ public class RestClient {
 
     /**
      * 封装 delete请求方法
+     *
      * @param url
      * @return 返回一个response对象，方便进行得到状态码和json解析
      * @throws IOException
@@ -176,6 +222,7 @@ public class RestClient {
 
     /**
      * 获取响应状态码，常用来和TestBase中定义的状态码常量去测试断言使用
+     *
      * @param response
      * @return
      */
@@ -188,7 +235,6 @@ public class RestClient {
 
 
     /**
-     *
      * @param response 任何请求返回的响应对象
      * @return
      * @throws IOException

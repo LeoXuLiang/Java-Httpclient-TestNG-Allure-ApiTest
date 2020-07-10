@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c261103-758a-4276-be97-6faab3bbd22b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/report/ExtentTestNGReporterListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/report/ExtentTestNGReporterListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/report/ExtentTestNGReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/report/ExtentTestNGReporterListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/restclient/RestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/restclient/RestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/DeleteApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/DeleteApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/GetApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/GetApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/TestInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/TestInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/loginTest_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/loginTest_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/testJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/testJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/testJdbc2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/testJdbc2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/JdbcPz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/JdbcPz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/TestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/TestUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/Xt_Operate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/Xt_Operate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Java-Httpclient-TestNG-Allure-ApiTest" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#889#905#0" expanded="true" />
+                <element signature="e#3933#3953#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/report/ExtentTestNGReporterListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/loginTest_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>testCase1data</find>
+      <find>发送请求成功！开始得到响应对象</find>
+      <find>restClient</find>
+      <find>userJsonString</find>
+      <find />
+      <find>驱动类库不能发现</find>
+      <find>host</find>
+      <find>getConnection</find>
+      <find>URIUtil</find>
+      <find>dtt</find>
+      <find>jdb</find>
+      <find>HttpEntity</find>
+      <find>重定向</find>
+      <find>cookie</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/restclient/GetRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/data/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/PutApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/report/ExtentTestNGReporterListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/Parameters/postParameters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/EFPStagingCN.java" />
+        <option value="$PROJECT_DIR$/src/main/config/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/PostApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/process_validateCode_normal_001.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/TestInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/MysqlOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/TestPropertisread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/Jdbc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/JDBCUnit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/config/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/Mysqlread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/JDBCUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/encodeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/MysqlUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/JdbcXT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/JdbcPz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/Xt_Operate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/testCase1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/testCase2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/loginTest_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/loginTest.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/config/config.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="apitest Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="apitest Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectId" id="1atoxpmA4VdaC19zVxhTaWMqqHc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="restclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Httpclient-TestNG-Allure-ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest\src\main\java\com\qa\tests" />
+      <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest\src\main\resource" />
+      <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest" />
+      <recent name="I:\AutoTest\apitest\src\test" />
+      <recent name="I:\AutoTest\apitest\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qa.tests" />
+      <recent name="com.qa.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest\src\main\config" />
+      <recent name="D:\002 测试管理\2019年文档\002 培训计划相关文档\4. java接口自动化测试\Java-Httpclient-TestNG-Allure-ApiTest\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml">
+    <configuration name="loginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qa.tests.loginTest" />
+      <module name="apitest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testJdbc2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qa.tests.testJdbc2" />
+      <module name="apitest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="apitest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testJdbc2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="apitest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.tests.testJdbc2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testJdbc2.testSelect" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="apitest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.tests.testJdbc2" />
+      <option name="METHOD_NAME" value="testSelect" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" />
+        <item itemvalue="Application.loginTest" />
+        <item itemvalue="Application.testJdbc2" />
+        <item itemvalue="TestNG.testJdbc2.testSelect" />
+        <item itemvalue="TestNG.testJdbc2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c261103-758a-4276-be97-6faab3bbd22b" name="Default Changelist" comment="" />
+      <created>1587551516386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587551516386</updated>
+      <workItem from="1587551522315" duration="173000" />
+      <workItem from="1587552361093" duration="2754000" />
+      <workItem from="1587564502504" duration="5598000" />
+      <workItem from="1587649455286" duration="680000" />
+      <workItem from="1587650192521" duration="493000" />
+      <workItem from="1589199924096" duration="664000" />
+      <workItem from="1589244386777" duration="12035000" />
+      <workItem from="1589424551268" duration="28642000" />
+      <workItem from="1589769854398" duration="20575000" />
+      <workItem from="1589857220128" duration="52119000" />
+      <workItem from="1590373549252" duration="5889000" />
+      <workItem from="1591151541685" duration="638000" />
+      <workItem from="1591163650411" duration="3945000" />
+      <workItem from="1591775902026" duration="25966000" />
+      <workItem from="1592471328136" duration="2729000" />
+      <workItem from="1592897825880" duration="14328000" />
+      <workItem from="1593334247577" duration="7602000" />
+      <workItem from="1593565352599" duration="2570000" />
+      <workItem from="1593583495067" duration="37896000" />
+      <workItem from="1593771801360" duration="2881000" />
+      <workItem from="1594001243604" duration="4546000" />
+      <workItem from="1594102813854" duration="17035000" />
+      <workItem from="1594190693548" duration="5475000" />
+    </task>
+    <task id="LOCAL-00001" summary="update 20200512 18:25">
+      <created>1589279151234</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589279151234</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update 20200512 18:53">
+      <created>1589280870886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589280870886</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update 20200512 18:59">
+      <created>1589281328709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589281328709</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update 20200514 17:59">
+      <created>1589450217607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589450217607</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update 20200515 20:03">
+      <created>1589544256679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589544256679</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update 20200515 23:29">
+      <created>1589556587294</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589556587294</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update 20200518 14:48">
+      <created>1589784525761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589784525761</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update 20200518 18:53">
+      <created>1589799226016</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589799226016</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update 20200518 19:00">
+      <created>1589799670920</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589799670920</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update 20200519 19:00">
+      <created>1589886047952</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589886047952</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update 20200520 18:00">
+      <created>1589968051479</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589968051479</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update 20200521 19:00">
+      <created>1590058785885</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590058785885</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update 20200522 21:50">
+      <created>1590155430382</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590155430382</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update 20200611 20:00">
+      <created>1591878932204</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591878932205</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update 20200623 19:00">
+      <created>1592910644849</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592910644849</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update 2020001 19:00&#10;优化数据驱动及封装jdbc">
+      <created>1593602129529</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593602129529</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update 20200703 18:00&#10;数据驱动忽略首行优化">
+      <created>1593769563104</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1593769563104</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.08 at 14h 40m 17s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.08 at 14h 48m 09s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.08 at 14h 53m 45s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.08 at 15h 14m 52s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.08 at 15h 17m 16s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.08 at 15h 19m 55s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.08 at 15h 22m 41s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.08 at 15h 25m 00s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.08 at 22h 25m 33s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__002_测试管理_2019年文档_002_培训计划相关文档_4__java接口自动化测试_Java-Httpclient-TestNG-Allure-ApiTest_testng_xml - 2020.07.08 at 22h 42m 35s.xml">
+      <configuration name="D:/002 测试管理/2019年文档/002 培训计划相关文档/4. java接口自动化测试/Java-Httpclient-TestNG-Allure-ApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="248194000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49615976" visible="true" weight="0.1641791" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50384027" side_tool="true" weight="0.24659607" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.6188993" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" weight="0.7741935" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32872504" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" weight="0.32872504" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" weight="0.5253456" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3261105" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32872504" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32872504" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32942432" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49615976" visible="true" weight="0.20396914" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50384027" side_tool="true" weight="0.24659607" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.35721704" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" visible="true" weight="0.5233645" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32872504" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" weight="0.32872504" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" weight="0.5253456" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32718894" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32872504" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32872504" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3296582" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update 20200512 18:25" />
+    <MESSAGE value="update 20200512 18:53" />
+    <MESSAGE value="update 20200512 18:59" />
+    <MESSAGE value="update 20200514 17:59" />
+    <MESSAGE value="update 20200515 20:03" />
+    <MESSAGE value="update 20200515 23:29" />
+    <MESSAGE value="update 20200518 14:48" />
+    <MESSAGE value="update 20200518 18:53" />
+    <MESSAGE value="update 20200518 19:00" />
+    <MESSAGE value="update 20200519 19:00" />
+    <MESSAGE value="update 20200520 18:00" />
+    <MESSAGE value="update 20200521 19:00" />
+    <MESSAGE value="update 20200522 21:50" />
+    <MESSAGE value="update 20200611 20:00" />
+    <MESSAGE value="update 20200623 19:00" />
+    <MESSAGE value="update 2020001 19:00&#10;优化数据驱动及封装jdbc" />
+    <MESSAGE value="update 20200703 18:00&#10;数据驱动忽略首行优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 20200703 18:00&#10;数据驱动忽略首行优化" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="closeableHttpResponse" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/TestPropertisread.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Jdbc.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Parameters/postParameters.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/data/Users.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/EFPStagingCN.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/PostApiTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/MysqlUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/JDBCUtil.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Properties.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/annotations/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/Closeable.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/HttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/encodeTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar!/org/apache/http/client/methods/CloseableHttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar!/org/apache/poi/xssf/usermodel/XSSFCell.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/getRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/postRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1978">
+          <caret line="100" column="23" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/SuiteRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="316" selection-start-line="316" selection-end-line="316" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/TestRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="376" selection-start-line="376" selection-end-line="376" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestMethodWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="416" selection-start-line="416" selection-end-line="416" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Method.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/process_validateCode_normal_001.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.62/fastjson-1.2.62.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="1317" column="16" lean-forward="true" selection-start-line="1317" selection-start-column="16" selection-end-line="1317" selection-end-column="16" />
+          <folding>
+            <element signature="e#56109#56110#0" expanded="true" />
+            <element signature="e#56156#56157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.62/fastjson-1.2.62.jar!/com/alibaba/fastjson/parser/JSONLexerBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="1061" selection-start-line="1061" selection-end-line="1061" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.62/fastjson-1.2.62.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/loginTest.java" />
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/testCase2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/testCase1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Xt_Operate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/JdbcPz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="111" column="57" lean-forward="true" selection-start-line="111" selection-start-column="57" selection-end-line="111" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/report/ExtentTestNGReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/loginTest_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/TestInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/testJdbc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#889#905#0" expanded="true" />
+            <element signature="e#3933#3953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

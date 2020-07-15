@@ -6,14 +6,13 @@ import com.alibaba.fastjson.JSONObject;
 import org.apache.http.Header;
 import org.apache.http.HttpRequest;
 import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.CookieStore;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.*;
+import org.apache.http.cookie.Cookie;
 import org.apache.http.entity.BasicHttpEntity;
 import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.impl.client.LaxRedirectStrategy;
+import org.apache.http.impl.client.*;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
@@ -25,7 +24,8 @@ import java.util.*;
 public class RestClient {
 
     final static Logger Log = Logger.getLogger(RestClient.class);
-    public static Map<String, String> cookies = new HashMap<String ,String>();
+    public static Map<String, String> cookies = new HashMap<String, String>();
+    public static CookieStore cookieStore = new BasicCookieStore();
 
 
     /**
@@ -85,9 +85,10 @@ public class RestClient {
      * @throws ClientProtocolException
      * @throws IOException
      */
-    public CloseableHttpResponse post(String url, String entityString, HashMap<String, String> headerMap) throws IOException {
+    public CloseableHttpResponse postJson(String url, String entityString, HashMap<String, String> headerMap) throws IOException {
         //创建一个可关闭的Httpclient对象,设置自动跟踪重定向
-        CloseableHttpClient httpclient = HttpClientBuilder.create().setRedirectStrategy(new LaxRedirectStrategy()).build();
+        CloseableHttpClient httpclient = HttpClients.custom().setDefaultCookieStore(cookieStore).setRedirectStrategy(new LaxRedirectStrategy()).build();
+//        CloseableHttpClient httpclient = HttpClientBuilder.create().setRedirectStrategy(new LaxRedirectStrategy()).build();
         //创建一个Httppost的请求对象
         HttpPost httppost = new HttpPost(url);
         //设置payload
@@ -101,7 +102,8 @@ public class RestClient {
         //发送post请求
         addCookieInRequestHeaderBeforeRequest(httppost);
         CloseableHttpResponse httpResponse = httpclient.execute(httppost);
-        getAndStoreCookieFromResponseHeader(httpResponse);
+        //通过cookieStore获取持久化cookie
+        getAndStoreCookie(cookieStore);
         Log.info("开始发送post请求");
         return httpResponse;
     }
@@ -118,8 +120,10 @@ public class RestClient {
      * @throws IOException
      */
     public CloseableHttpResponse postKeyValue(String url, Map<String, String> entityString, HashMap<String, String> headerMap) throws IOException {
-        //创建一个可关闭的Httpclient对象,设置自动跟踪重定向
-        CloseableHttpClient httpclient = HttpClientBuilder.create().setRedirectStrategy(new LaxRedirectStrategy()).build();
+        //创建一个可关闭的Httpclient对象,设置自动跟踪重定向，并且自动持久化使用cookiestore
+        CloseableHttpClient httpclient = HttpClients.custom().setDefaultCookieStore(cookieStore).setRedirectStrategy(new LaxRedirectStrategy()).build();
+//        CloseableHttpClient httpclient = HttpClientBuilder.create().setRedirectStrategy(new LaxRedirectStrategy()).build();
+
 //        CloseableHttpClient httpclient = HttpClientBuilder.create().build();
         //创建一个Httppost的请求对象
         HttpPost httppost = new HttpPost(url);
@@ -140,7 +144,11 @@ public class RestClient {
         //发送post请求
         addCookieInRequestHeaderBeforeRequest(httppost);
         CloseableHttpResponse httpResponse = httpclient.execute(httppost);
-        getAndStoreCookieFromResponseHeader(httpResponse);
+        //通过cookieStore获取持久化cookie
+        getAndStoreCookie(cookieStore);
+
+        //从response set-cookie中获取cookie信息【资管产品不适用】
+        //getAndStoreCookieFromResponseHeader(httpResponse);
 
         Log.info("开始发送post请求");
         return httpResponse;
@@ -149,7 +157,7 @@ public class RestClient {
     private void addCookieInRequestHeaderBeforeRequest(HttpRequest request) {
         String jsessionIdCookie = cookies.get("JSESSIONID");
         if (jsessionIdCookie != null) {
-            request.addHeader("Cookie",jsessionIdCookie);
+            request.addHeader("Cookie", jsessionIdCookie);
 
         }
     }
@@ -157,17 +165,19 @@ public class RestClient {
     private static void getAndStoreCookieFromResponseHeader(CloseableHttpResponse httpResponse) {
         //从响应头里取出名字为"Set-Cookie"的响应头
         Header setCookieHeader = httpResponse.getFirstHeader("Set-Cookie");
+        Log.info("setCookieHeader=" + setCookieHeader);
+
         //如果不为空
-        if (setCookieHeader!=null){
+        if (setCookieHeader != null) {
             //取出此响应头的值
             String cookiePairsString = setCookieHeader.getValue();
             if (cookiePairsString != null && cookiePairsString.trim().length() > 0) {
                 //以“;”来切分
-                String [] cookiePairs = cookiePairsString.split(";");
+                String[] cookiePairs = cookiePairsString.split(";");
                 if (cookiePairs != null) {
-                    for (String cookiePair : cookiePairs){
+                    for (String cookiePair : cookiePairs) {
                         //如果包含JSESSIONID，则意味着响应头里有会话ID这个数据
-                        if (cookiePair.contains("JSESSIONID")){
+                        if (cookiePair.contains("JSESSIONID")) {
                             //保存到map
                             cookies.put("JSESSIONID", cookiePair);
 
@@ -176,8 +186,26 @@ public class RestClient {
                 }
             }
         }
-
     }
+
+private static void getAndStoreCookie(CookieStore cookieStore) {
+    String JSESSIONID = null;
+    String result = null;
+    List<Cookie> cookie = cookieStore.getCookies();
+    for (int i = 0; i < cookie.size(); i++) {
+        if (cookie.get(i).getName().equals("JSESSIONID")) {
+            JSESSIONID = cookie.get(i).getValue();
+        }
+    }
+    if (JSESSIONID != null) {
+        result = "JSESSIONID="+JSESSIONID;
+    }
+    Log.info(result);
+    cookies.put("JSESSIONID", result);
+    }
+
+
+
 
     /**
      * 封装put请求方法，参数和post方法一样
@@ -233,7 +261,6 @@ public class RestClient {
         Log.info("解析，得到响应状态码" + statusCode);
         return statusCode;
     }
-
 
     /**
      * @param response 任何请求返回的响应对象

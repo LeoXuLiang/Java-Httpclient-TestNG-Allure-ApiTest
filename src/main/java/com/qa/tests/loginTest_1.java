@@ -2,6 +2,7 @@ package com.qa.tests;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.mysql.cj.log.Log;
 import com.qa.base.TestBase;
 import com.qa.restclient.RestClient;
 import com.qa.util.TestUtil;
@@ -67,7 +68,7 @@ public class loginTest_1  extends TestBase {
         public void setUp(){
             testBase = new TestBase();
             restClient = new RestClient();
-            postHeader.put("Content-Type","application/x-www-form-urlencoded");
+//            postHeader.put("Content-Type","application/x-www-form-urlencoded");
 //        postHeader.put("cookie",)
             //载入配置文件，接口endpoint
             host = prop.getProperty("Host");
@@ -94,26 +95,37 @@ public class loginTest_1  extends TestBase {
         @Test(dataProvider = "postData")
         public void postApi(String project,String caseID,String apiSeq,String apiName,String testType,String priority,String url,String headInfo,String precondition,String methods,String dataParameters,String specialSetup,String contentType,String sign,String expectValue,String preResult,String sql,String jsonPath1,String jsonPath2,String jsonPath3,String jsonPath4,String para1,String para2,String para3,String para4,String port)
                 throws Exception {
-            //将传入的参数对象序列化成json对象
-            //String parameter = JSON.toJSONString(dataParameters);
-
-            System.out.println(dataParameters);
-            //将传入的参数对象序列化成map对象
-            Map<String,String> params = (Map<String, String>) JSONObject.parse(dataParameters);
+            int preStatusCode = Integer.parseInt(preResult);
+            int portNum = Integer.parseInt(port);
+            System.out.println(contentType);
+            System.out.println(contentType.contains("json"));
             //发送登录请求
-            closeableHttpResponse = restClient.postKeyValue(host+url,params,postHeader);
+            if (contentType.contains("json")) {
+                //将传入的参数对象序列化成json对象
+//                String params = JSON.toJSONString(dataParameters);
+                postHeader.put("Content-Type","application/json");
+                System.out.println(dataParameters);
+                closeableHttpResponse = restClient.postJson(host + portNum + url, dataParameters, postHeader);
+            } else {
+                //将传入的参数对象序列化成map对象
+                Map<String, String> params = (Map<String, String>) JSONObject.parse(dataParameters);
+                postHeader.put("Content-Type","application/x-www-form-urlencoded");
+                System.out.println(params);
+                closeableHttpResponse = restClient.postKeyValue(host + portNum + url, params, postHeader);
+            }
 
             //状态码断言200
-            Assert.assertEquals(restClient.getStatusCode(closeableHttpResponse),200);
+            Assert.assertEquals(restClient.getStatusCode(closeableHttpResponse),preStatusCode);
 
             //获取相关信息，写入报告中
             Reporter.log("用例编号： "+  caseID);
             Reporter.log("用例标题： "+  apiName);
             Reporter.log("URL： "+  url);
             Reporter.log("请求方式： "+  methods);
-            Reporter.log("请求参数： "+ params);
+            Reporter.log("请求参数： "+ dataParameters);
             Reporter.log("状态码："+ restClient.getStatusCode(closeableHttpResponse));
             Reporter.log("响应结果： "+ restClient.getResponseJson(closeableHttpResponse));
+
         }
 
         @Test(dataProvider = "get")

@@ -3,9 +3,11 @@
 <suite name="test" verbose="1" preserve-order="true" parallel="false">
     <test name="testCase1">
         <classes>
-            <class name="com.qa.tests.loginTest_1">
+            <class name="com.qa.tests.ApiTest_Asset">
                 <methods>
+                    <include name="login"></include>
                     <include name="postApi"></include>
+                    <include name="getApi"></include>
                 </methods>
             </class>
         </classes>

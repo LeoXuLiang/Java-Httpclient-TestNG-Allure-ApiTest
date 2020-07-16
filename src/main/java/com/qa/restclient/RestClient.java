@@ -2,6 +2,7 @@ package com.qa.restclient;
 
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.http.Header;
 import org.apache.http.HttpRequest;
@@ -16,6 +17,8 @@ import org.apache.http.impl.client.*;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
+import org.apache.poi.ss.formula.functions.T;
+
 import java.io.IOException;
 import java.util.*;
 
@@ -59,9 +62,9 @@ public class RestClient {
      * @throws ClientProtocolException
      * @throws IOException
      */
-    public CloseableHttpResponse get(String url, HashMap<String, String> headerMap) throws IOException {
-        //创建一个可关闭的Httpclient对象
-        CloseableHttpClient httpClient = HttpClients.createDefault();
+    public CloseableHttpResponse getApi(String url, HashMap<String, String> headerMap) throws IOException {
+        //创建一个可关闭的Httpclient对象,设置自动跟踪重定向
+        CloseableHttpClient httpclient = HttpClients.custom().setDefaultCookieStore(cookieStore).setRedirectStrategy(new LaxRedirectStrategy()).build();
         //创建一个Httpget的请求对象
         HttpGet httpget = new HttpGet(url);
         //加载请求头到Httpget对象
@@ -70,9 +73,11 @@ public class RestClient {
         }
         //执行请求
         addCookieInRequestHeaderBeforeRequest(httpget);
-        CloseableHttpResponse httpResponse = httpClient.execute(httpget);
-        getAndStoreCookieFromResponseHeader(httpResponse);
+        CloseableHttpResponse httpResponse = httpclient.execute(httpget);
+        getAndStoreCookie(cookieStore);
         return httpResponse;
+
+
     }
 
     /**
@@ -204,9 +209,6 @@ private static void getAndStoreCookie(CookieStore cookieStore) {
     cookies.put("JSESSIONID", result);
     }
 
-
-
-
     /**
      * 封装put请求方法，参数和post方法一样
      *
@@ -267,11 +269,26 @@ private static void getAndStoreCookie(CookieStore cookieStore) {
      * @return
      * @throws IOException
      */
-    public JSONObject getResponseJson(CloseableHttpResponse response) throws IOException {
-        Log.info("得到响应对象的String格式");
+    public String getResponseJson(CloseableHttpResponse response) throws IOException {
         String responseString = EntityUtils.toString(response.getEntity(), "UTF-8");
-        JSONObject responseJson = JSON.parseObject(responseString);
-        Log.info("返回响应内容的JSON格式");
-        return responseJson;
+        Log.info("得到响应对象的String格式");
+        Log.info(responseString);
+ /*       if (responseString.contains("[")){
+            char[] responseArry=responseString.toCharArray();//s为要转化的字符串
+            //Json数组用JSONArray来进行解析
+            JSONArray responseJsonArray = JSONArray.parseArray(responseString);
+            Log.info("返回响应内容的JSON格式");
+            Log.info(responseJsonArray);
+            return responseJsonArray;
+
+        }else{
+            //Json用JSONObject来进行解析
+            JSONObject responseJson = JSON.parseObject(responseString);
+            Log.info("返回响应内容的JSON格式");
+            Log.info(responseJson);
+            return responseJson;*/
+//        }
+        return responseString;
+
     }
 }

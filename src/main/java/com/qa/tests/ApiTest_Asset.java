@@ -5,6 +5,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.qa.base.TestBase;
 import com.qa.restclient.RestClient;
 import com.qa.util.TestUtil;
+import com.qa.util.Xt_Operate;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -17,6 +18,8 @@ import java.io.IOException;
 import java.util.*;
 
 import static com.qa.util.TestUtil.dtt;
+import static com.qa.util.Xt_Operate.InsertUpdateDeleteXT;
+import static com.qa.util.Xt_Operate.LoadJdbc;
 
 import java.util.HashMap;
 
@@ -26,6 +29,7 @@ public class ApiTest_Asset extends TestBase {
     TestBase testBase;
     RestClient restClient;
     CloseableHttpResponse closeableHttpResponse;
+    Xt_Operate xt;
     //host根url
     String host;
     //Excel路径
@@ -37,6 +41,8 @@ public class ApiTest_Asset extends TestBase {
     public void setUp() {
         testBase = new TestBase();
         restClient = new RestClient();
+        xt = new Xt_Operate();
+
 //            postHeader.put("Content-Type","application/x-www-form-urlencoded");
 //        postHeader.put("cookie",)
         //载入配置文件，接口endpoint
@@ -45,27 +51,46 @@ public class ApiTest_Asset extends TestBase {
         testCaseExcel = prop.getProperty("testCase1data");
     }
 
+    @DataProvider(name = "init")
+    public Object[][] init() throws IOException {
+        return dtt(testCaseExcel, 0);
+    }
+
     @DataProvider(name = "login")
     public Object[][] login() throws IOException {
-        return dtt(testCaseExcel, 0);
+        return dtt(testCaseExcel, 1);
     }
 
     @DataProvider(name = "postData")
     public Object[][] post() throws IOException {
-        return dtt(testCaseExcel, 1);
+        return dtt(testCaseExcel, 2);
     }
 
     @DataProvider(name = "get")
     public Object[][] get() throws IOException {
         //get类型接口
-        return dtt(testCaseExcel, 2);
+        return dtt(testCaseExcel, 3);
     }
 
     @DataProvider(name = "delete")
     public Object[][] delete() throws IOException {
         //delete类型接口
-        return dtt(testCaseExcel, 3);
+        return dtt(testCaseExcel, 4);
     }
+
+    @Test(dataProvider = "init")
+    public void init(String initSql) {
+        //初始化SQL执行
+        //传入sql
+        LoadJdbc();
+        System.out.println(initSql);
+        String[] stringArrayData = initSql.split(",");
+        System.out.println(stringArrayData[0]);
+        System.out.println(stringArrayData[1]);
+        //执行删除操作
+        InsertUpdateDeleteXT(stringArrayData);
+    }
+
 
     @Test(dataProvider = "login")
     public void login(String project, String caseID, String apiSeq, String apiName, String testType, String priority, String url, String headInfo, String precondition, String methods, String dataParameters, String specialSetup, String contentType, String sign, String expectValue, String preResult, String sql, String jsonPath1, String jsonPath2, String jsonPath3, String jsonPath4, String para1, String para2, String para3, String para4, String port)
@@ -137,7 +162,7 @@ public class ApiTest_Asset extends TestBase {
             postHeader.put("Content-Type", "application/x-www-form-urlencoded");
         }
 
-        closeableHttpResponse = restClient.getApi(host + portNum + url + dataParameters,postHeader);
+        closeableHttpResponse = restClient.getApi(host + portNum + url + dataParameters, postHeader);
 
         //状态码断言200
         Assert.assertEquals(restClient.getStatusCode(closeableHttpResponse), preStatusCode);

@@ -5,9 +5,10 @@
         <classes>
             <class name="com.qa.tests.ApiTest_Asset">
                 <methods>
-                    <include name="login"></include>
-                    <include name="postApi"></include>
-                    <include name="getApi"></include>
+                    <include name="init"></include>
+<!--                    <include name="login"></include>-->
+<!--                    <include name="postApi"></include>-->
+<!--                    <include name="getApi"></include>-->
                 </methods>
             </class>
         </classes>

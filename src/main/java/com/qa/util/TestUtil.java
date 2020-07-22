@@ -106,5 +106,13 @@ public class TestUtil {
         return StatusCode;
     }
 
+    //5 String 转化为 String[]
+    public static String[] stringTosTringArray(String stringData) {
+        String[] stringArrayData = stringData.split(",");
+        return stringArrayData;
+    }
+
+
+
 
 }

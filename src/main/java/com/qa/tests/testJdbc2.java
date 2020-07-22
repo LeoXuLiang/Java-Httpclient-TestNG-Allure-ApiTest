@@ -9,6 +9,8 @@ public class testJdbc2 extends Xt_Operate {
 
     public static void main(String[] args) {
 
+
+        //查询
         LoadJdbc();
         //查询数据并返回查询结果
         afferentSQL("SELECT NAME FROM `user` WHERE login_name like '1990000000%';");
@@ -22,6 +24,17 @@ public class testJdbc2 extends Xt_Operate {
         rowData.get("name");
 
         System.out.println("第1条数据的name字段："+rowData.get("name"));
+
+
+        //传入sql
+        LoadJdbc();
+
+        String[] strArray = {"UPDATE `user`  SET `name` = '204' WHERE login_name LIKE '1990000000%' AND `name` = '201';", "UPDATE `user`  SET `name` = '206' WHERE login_name LIKE '1990000000%' AND `name` = '205';"};
+
+//        String[] stringArrayData = initSql.split(",");
+
+        //执行删除操作
+        InsertUpdateDeleteXT(strArray);
 
 
 

@@ -41,8 +41,9 @@ public class Xt_Operate {
     public static void InsertUpdateDeleteXT(String[] Sqls) {
         try {
             for (int i = 0; i < Sqls.length; i++) {
-                System.out.println("Sqls[i]="+Sqls[i]);
+                System.out.println("Sqls["+i+"]="+Sqls[i]);
                 ps = conn.prepareStatement(Sqls[i], Statement.RETURN_GENERATED_KEYS);
+                ps.executeUpdate();
             }
 
         } catch (SQLException e) {

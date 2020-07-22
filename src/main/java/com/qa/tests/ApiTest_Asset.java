@@ -18,6 +18,7 @@ import java.io.IOException;
 import java.util.*;
 
 import static com.qa.util.TestUtil.dtt;
+import static com.qa.util.TestUtil.stringTosTringArray;
 import static com.qa.util.Xt_Operate.InsertUpdateDeleteXT;
 import static com.qa.util.Xt_Operate.LoadJdbc;
 
@@ -84,11 +85,8 @@ public class ApiTest_Asset extends TestBase {
         //传入sql
         LoadJdbc();
         System.out.println(initSql);
-        String[] stringArrayData = initSql.split(",");
-        System.out.println(stringArrayData[0]);
-        System.out.println(stringArrayData[1]);
         //执行删除操作
-        InsertUpdateDeleteXT(stringArrayData);
+        InsertUpdateDeleteXT(stringTosTringArray(initSql));
     }
 
 

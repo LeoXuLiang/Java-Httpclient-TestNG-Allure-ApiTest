@@ -29,8 +29,9 @@ public class testJdbc2 extends Xt_Operate {
         //传入sql
         LoadJdbc();
 
-        String[] strArray = {"UPDATE `user`  SET `name` = '204' WHERE login_name LIKE '1990000000%' AND `name` = '201';", "UPDATE `user`  SET `name` = '206' WHERE login_name LIKE '1990000000%' AND `name` = '205';"};
+        String[] strArray = {"UPDATE `user`  SET `name` = '555' WHERE login_name LIKE '1990000000%' AND `name` = '222';", "UPDATE `user`  SET `name` = '666' WHERE login_name LIKE '1990000000%' AND `name` = '444';"};
 
+//        String str =
 //        String[] stringArrayData = initSql.split(",");
 
         //执行删除操作
